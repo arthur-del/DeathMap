@@ -1,0 +1,6 @@
+Updated on: 2021-06-22
+
+Tasks:
+
+1. Find a way to hide the api key, probably using secrets and env variables.
+2. Add frontend client, update the readme and organise frontend/backend directories in a clear way
