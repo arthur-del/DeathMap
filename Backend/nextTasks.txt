@@ -1,0 +1,9 @@
+Updated on: 2021-06-25
+
+Tasks - priority:
+
+1. Find a way to hide the api key, probably using secrets and env variables. -  low 
+2. Add frontend client, update the readme and organise frontend/backend directories in a clear way - high
+3. Add visual representation of deathMap in JS - high
+4. remove commented matplotlib code in deathMap.py - low 
+
