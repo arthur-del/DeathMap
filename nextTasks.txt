@@ -1,0 +1,6 @@
+Tasks for frontend
+
+# Create offset for death-marks 
+# Bind data to searchbox so we actually get data from a user we choose
+# Create error handling in the backend when username does not exist
+# Find a background image and make it look nice with the minimap

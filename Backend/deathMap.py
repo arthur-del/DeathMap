@@ -1,13 +1,5 @@
 import requests
 
-## Matplotlib imports commented out, waiting to transfer visual representation of death map to frontend
-#import matplotlib
-#import matplotlib.pyplot as plt
-#import matplotlib.image as mpimg
-#import matplotlib.transforms as transf
-#from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-
-
 #Requires: username(string), apikey(string)
 #Returns: playerID(string)
 def getPlayerId(name,api):
@@ -58,6 +50,14 @@ def getOneMatchDeathCoordinate(username, api_key):
 
 ## The code below creates creates a death minimap using matplotlib
 ## When refactoring occurs this will be deleted  as the deathmap will be created in the frontend
+
+
+## Matplotlib imports commented out, waiting to transfer visual representation of death map to frontend
+#import matplotlib
+#import matplotlib.pyplot as plt
+#import matplotlib.image as mpimg
+#import matplotlib.transforms as transf
+#from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 # death_array = getPlayerDeathsCoordinate(timeline, victim_id)
 # colors = '#FFA500'

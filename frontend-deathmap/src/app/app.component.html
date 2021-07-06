@@ -1,5 +1,16 @@
-<h1>Hello world</h1>
-<app-searchbox></app-searchbox>
-<button (click)="getDeathMap()">get your deaths</button>
-<div *ngFor="let coordinate of coordinates">
-    {{ coordinate | json}} </div>
+<div class="container">
+    <app-searchbox></app-searchbox>
+    <button (click)="getDeathMap()">get your deaths</button>
+    <div *ngIf="showMap">
+        <div class="lol-map">
+            <div *ngFor="let coordinate of coordinates" class="death-marks" [ngStyle]="{
+            'left': (coordinate['x']+512)*mapToPixelRatioX+'px',
+            'bottom': (coordinate['y']+512)*mapToPixelRatioY+'px'}">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

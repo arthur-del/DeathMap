@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    .lol-map{
+        z-index: 1;
+        background:url('../assets/resources/lol_minimap.png') no-repeat;
+        width: 512px;
+        height: 512px;
+        position: relative;
+        margin:auto;
+        .death-marks{
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            background-color: aqua;
+            
+        }
+    }
+}
