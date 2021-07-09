@@ -1,7 +1,7 @@
 # DeathMap
+This is a website that allows a user to search any league of legends username and see where they died in their last game.
+This is a personel project to practice data parsing, api calls, website building and clean, easy-to-read code.
 
-This is a personel project to practice Data parsing, api calls, website building and clean, easy-to-read code.
-Essentially the end goal is to have a website where one can enter his league of legends username and get a snapshot of his deaths on the minimap.
 ## About this repo
 This is a monorepo that consists of two parts:
 - The [Client](/frontend-deathmap)
