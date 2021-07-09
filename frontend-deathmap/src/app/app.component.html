@@ -1,12 +1,14 @@
 <div class="container">
-    <app-searchbox></app-searchbox>
+    <!-- <app-searchbox ></app-searchbox> -->
+    <div class="searchbox-wrapper">
+        <input (input)="updateUsername($event)" id="username" type="text" placeholder="League Of Legends username" />
+    </div>
     <button (click)="getDeathMap()">get your deaths</button>
     <div *ngIf="showMap">
         <div class="lol-map">
             <div *ngFor="let coordinate of coordinates" class="death-marks" [ngStyle]="{
             'left': (coordinate['x']+512)*mapToPixelRatioX+'px',
             'bottom': (coordinate['y']+512)*mapToPixelRatioY+'px'}">
-
             </div>
 
         </div>

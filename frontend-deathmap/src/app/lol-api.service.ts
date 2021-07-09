@@ -10,11 +10,11 @@ export class LolApiService {
   constructor(private http: HttpClient) { }
 
   coordinates: any;
-  deathServiceUrl = 'http://127.0.0.1:5000/deathCoordinates/sc2troller';
+  deathServiceUrl = 'http://127.0.0.1:5000/deathCoordinates/';
 
   // requires username(string)
   // returns observable
-  getDeaths() {
-    return this.http.get<any>(this.deathServiceUrl)
+  getDeaths(username:string) {
+    return this.http.get<any>(this.deathServiceUrl+username)
   }
 }
